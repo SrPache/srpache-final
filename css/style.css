@@ -1,0 +1,57 @@
+:root{
+    --color-principal: #840db3;
+}
+
+#logo{
+    max-width: 60px;
+    border-radius: 100%;
+    border: 1px solid #333
+}
+
+.centrado{
+    padding: 2vh 0 6vh;    /* max-height: 70vh; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:1rem
+}
+
+.centrado>p.lead.fw-normal{
+    max-width: 50ch;
+    padding: 0 1rem;
+}
+
+.container header a{
+    gap: 1rem
+}
+
+.container header a span{
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.fas.fa-envelope.i-button{
+    font-size: 24px;
+}
+
+#main-img{
+    max-width: 100%;
+    max-height: 50vh;
+    border-radius: 100%;
+}
+
+.special{
+    font-weight: bold;
+    color: var(--color-principal)
+}
+
+.lead.fw-normal{
+    max-width: 60%;
+}
+
+.centrado2{
+    background-color: #840db3;
+    color:white;
+}
